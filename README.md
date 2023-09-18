@@ -163,7 +163,7 @@ First color is the Ubuntu-Orange, second the Ubuntu-Purple
 | Yaru-Lavender | ![#6a39cb](https://via.placeholder.com/15/6a39cb/000000?text=+) `#6a39cb` | ![#3c1d79](https://via.placeholder.com/15/3c1d79/000000?text=+) `#3c1d79` |
 | Yaru-MATE | ![#78ab50](https://via.placeholder.com/15/78ab50/000000?text=+) `#78ab50` | ![#4f6326](https://via.placeholder.com/15/4f6326/000000?text=+) `#4f6326` |
 | Yaru-Orange | ![#e95420](https://via.placeholder.com/15/e95420/000000?text=+) `#e95420` | ![#a6401c](https://via.placeholder.com/15/a6401c/000000?text=+) `#a6401c` |
-| Yaru-Pink | ![#e920a3](https://via.placeholder.com/15/e920a3/000000?text=+) `#e920a3` | ![#742558](https://via.placeholder.com/15/742558/000000?text=+) `#742558` |
+| Yaru-Pink | ![#da5c89](https://via.placeholder.com/15/e920a3/000000?text=+) `#da5c89` | ![#742558](https://via.placeholder.com/15/742558/000000?text=+) `#742558` |
 | Yaru-Purple | ![#924d8b](https://via.placeholder.com/15/924d8b/000000?text=+) `#924d8b` | ![#5e2750](https://via.placeholder.com/15/5e2750/000000?text=+) `#5e2750` |
 | Yaru-Red | ![#e92020](https://via.placeholder.com/15/e92020/000000?text=+) `#e92020` | ![#742525](https://via.placeholder.com/15/742525/000000?text=+) `#742525` |
 | Yaru-Teal | ![#16a085](https://via.placeholder.com/15/16a085/000000?text=+) `#16a085` | ![#094a3d](https://via.placeholder.com/15/094a3d/000000?text=+) `#094a3d` |

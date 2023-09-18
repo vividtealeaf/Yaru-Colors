@@ -767,7 +767,7 @@ while [ "$execute" == "true" ]; do
   elif [ "$enable_dock_color" == "Orange" ]; then
     dock_color='#e95420'
   elif [ "$enable_dock_color" == "Pink" ]; then
-    dock_color='#e920a3'
+    dock_color='#da5c89'
   elif [ "$enable_dock_color" == "Amber" ]; then
     dock_color='#924d8b'
   elif [ "$enable_dock_color" == "Red" ]; then

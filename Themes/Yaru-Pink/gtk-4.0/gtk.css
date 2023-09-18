@@ -119,7 +119,7 @@ label:focus:focus-visible {
   outline-offset: -2px; }
 
 label > selection {
-  background-color: #e920a3;
+  background-color: #da5c89;
   color: #FFFFFF; }
 
 label:disabled {
@@ -313,7 +313,7 @@ entry {
       color: #3D3D3D; }
     spinbutton.vertical > text > image:active, spinbutton:not(.vertical) > image:active,
     entry > image:active {
-      color: #e920a3; }
+      color: #da5c89; }
   spinbutton.vertical > text.password image.caps-lock-indicator, spinbutton.password:not(.vertical) image.caps-lock-indicator,
   entry.password image.caps-lock-indicator {
     color: #828282; }
@@ -331,7 +331,7 @@ entry {
     -gtk-icon-shadow: 0 1px black; }
     .osd spinbutton.vertical > text:focus-within, .osd spinbutton:focus-within:not(.vertical), .osd entry:focus-within {
       color: white;
-      border-color: #e920a3;
+      border-color: #da5c89;
       background-color: rgba(0, 0, 0, 0.5);
       background-clip: padding-box; }
     .osd spinbutton.vertical > text:disabled, .osd spinbutton:disabled:not(.vertical), .osd entry:disabled {
@@ -350,7 +350,7 @@ entry progress > trough > progress {
   background-image: none;
   border-radius: 0;
   border-width: 0 0 2px;
-  border-color: #e920a3;
+  border-color: #da5c89;
   border-style: solid;
   box-shadow: none; }
 
@@ -409,7 +409,7 @@ treeview entry.flat, treeview entry {
   background-image: none;
   background-color: #ffffff; }
   treeview entry.flat:focus-within, treeview entry:focus-within {
-    border-color: #e920a3; }
+    border-color: #da5c89; }
 
 /*******************
  * Editable Labels *
@@ -424,9 +424,9 @@ editablelabel > stack > text {
  ***********/
 @keyframes needs_attention {
   from {
-    background-image: radial-gradient(farthest-side, #e920a3 0%, rgba(233, 32, 163, 0) 0%); }
+    background-image: radial-gradient(farthest-side, #da5c89 0%, rgba(233, 32, 163, 0) 0%); }
   to {
-    background-image: radial-gradient(farthest-side, #e920a3 95%, rgba(233, 32, 163, 0)); } }
+    background-image: radial-gradient(farthest-side, #da5c89 95%, rgba(233, 32, 163, 0)); } }
 
 notebook > header > tabs > arrow,
 button {
@@ -883,7 +883,7 @@ button.circular {
 stacksidebar row.needs-attention > label, stackswitcher > button.needs-attention > label,
 stackswitcher > button.needs-attention > image {
   animation: needs_attention 150ms ease-in;
-  background-image: radial-gradient(farthest-side, #e920a3 96%, rgba(233, 32, 163, 0));
+  background-image: radial-gradient(farthest-side, #da5c89 96%, rgba(233, 32, 163, 0));
   background-size: 6px 6px, 6px 6px;
   background-repeat: no-repeat;
   background-position: right 3px, right 4px; }
@@ -1592,18 +1592,18 @@ treeview.view {
   columnview.view.progressbar,
   treeview.view.progressbar {
     color: #ffffff;
-    background-color: #e920a3;
-    background-image: image(#e920a3);
+    background-color: #da5c89;
+    background-image: image(#da5c89);
     box-shadow: none; }
     columnview.view.progressbar:selected:focus, columnview.view.progressbar:selected,
     treeview.view.progressbar:selected:focus,
     treeview.view.progressbar:selected {
-      color: #e920a3;
+      color: #da5c89;
       background-image: image(#ffffff); }
       columnview.view.progressbar:selected:focus:backdrop, columnview.view.progressbar:selected:backdrop,
       treeview.view.progressbar:selected:focus:backdrop,
       treeview.view.progressbar:selected:backdrop {
-        color: #e920a3;
+        color: #da5c89;
         background-color: #fcfcfc; }
   columnview.view.trough,
   treeview.view.trough {
@@ -1644,7 +1644,7 @@ treeview.view {
     padding: 0 6px;
     color: #ffffff;
     background-image: none;
-    background-color: #e920a3;
+    background-color: #da5c89;
     border-style: none;
     border-radius: 0;
     box-shadow: inset 0 0 0 1px #ffffff;
@@ -1652,7 +1652,7 @@ treeview.view {
     transition: none; }
   columnview.view acceleditor > label,
   treeview.view acceleditor > label {
-    background-color: #e920a3; }
+    background-color: #da5c89; }
 
 columnview.view > header > button,
 treeview.view > header > button, columnview.view > header > button:hover,
@@ -1803,7 +1803,7 @@ menubar {
     min-height: 16px;
     padding: 4px 8px; }
     menubar > item:selected {
-      box-shadow: inset 0 -3px #e920a3;
+      box-shadow: inset 0 -3px #da5c89;
       color: #007aa6; }
     menubar > item:disabled {
       color: #9c9c9c;
@@ -1842,7 +1842,7 @@ notebook > header {
       notebook > header.top > tabs > tab:hover {
         box-shadow: inset 0 -3px #c7c7c7; }
       notebook > header.top > tabs > tab:checked {
-        box-shadow: inset 0 -3px #e920a3; }
+        box-shadow: inset 0 -3px #da5c89; }
   notebook > header.bottom {
     border-top-style: solid; }
     notebook > header.bottom > tabs {
@@ -1850,7 +1850,7 @@ notebook > header {
       notebook > header.bottom > tabs > tab:hover {
         box-shadow: inset 0 3px #c7c7c7; }
       notebook > header.bottom > tabs > tab:checked {
-        box-shadow: inset 0 3px #e920a3; }
+        box-shadow: inset 0 3px #da5c89; }
   notebook > header.left {
     border-right-style: solid; }
     notebook > header.left > tabs {
@@ -1858,7 +1858,7 @@ notebook > header {
       notebook > header.left > tabs > tab:hover {
         box-shadow: inset -3px 0 #c7c7c7; }
       notebook > header.left > tabs > tab:checked {
-        box-shadow: inset -3px 0 #e920a3; }
+        box-shadow: inset -3px 0 #da5c89; }
   notebook > header.right {
     border-left-style: solid; }
     notebook > header.right > tabs {
@@ -1866,7 +1866,7 @@ notebook > header {
       notebook > header.right > tabs > tab:hover {
         box-shadow: inset 3px 0 #c7c7c7; }
       notebook > header.right > tabs > tab:checked {
-        box-shadow: inset 3px 0 #e920a3; }
+        box-shadow: inset 3px 0 #da5c89; }
   notebook > header.top > tabs > arrow {
     border-top-style: none; }
   notebook > header.bottom > tabs > arrow {
@@ -3116,11 +3116,11 @@ columnview row:not(:selected) cell editablelabel:not(.editing):focus-within {
   outline: 2px solid rgba(239, 97, 190, 0.7); }
 
 columnview row:not(:selected) cell editablelabel.editing:focus-within {
-  outline: 2px solid #e920a3; }
+  outline: 2px solid #da5c89; }
 
 columnview row:not(:selected) cell editablelabel.editing text selection {
   color: #FFFFFF;
-  background-color: #e920a3; }
+  background-color: #da5c89; }
 
 /*******************************************************
  * Rich Lists                                          *
@@ -3300,7 +3300,7 @@ stacksidebar row {
     background-color: #dedede; }
   stacksidebar row:focus:focus-visible {
     outline-width: 0;
-    background-color: #e920a3;
+    background-color: #da5c89;
     color: #FFFFFF; }
   stacksidebar row.activatable:active, stacksidebar row.activatable:selected:active {
     box-shadow: none; }
@@ -3330,7 +3330,7 @@ separator.sidebar {
       .navigation-sidebar > row:selected:focus-visible:focus-within {
         outline-width: 0;
         color: #FFFFFF;
-        background-color: #e920a3; }
+        background-color: #da5c89; }
         .navigation-sidebar > row:selected:focus-visible:focus-within:hover {
           background-color: #c31386; }
     .navigation-sidebar > row:disabled {
@@ -3372,7 +3372,7 @@ placessidebar .navigation-sidebar > row {
     background-image: image(#109b26);
     background-clip: content-box; }
   placessidebar .navigation-sidebar > row.sidebar-new-bookmark-row {
-    color: #e920a3; }
+    color: #da5c89; }
   placessidebar .navigation-sidebar > row:drop(active):not(:disabled) {
     color: #109b26;
     box-shadow: inset 0 1px #109b26, inset 0 -1px #109b26; }
@@ -3403,7 +3403,7 @@ paned > separator {
   background-image: image(#c7c7c7);
   background-size: 1px 1px; }
   paned > separator:selected {
-    background-image: image(#e920a3); }
+    background-image: image(#da5c89); }
   paned > separator.wide {
     min-width: 5px;
     min-height: 5px;
@@ -3629,7 +3629,7 @@ textview > text:selected, textview > text > selection:focus, textview > text > s
 entry > text > selection, modelbutton.flat:selected, spinbutton:not(.vertical) > text > selection, spinbutton.vertical > text > text > selection, spinbutton.vertical > text > selection, columnview.view:selected:focus, columnview.view:selected,
 treeview.view:selected:focus,
 treeview.view:selected, row:selected, calendar > grid > label.day-number:selected {
-  background-color: #e920a3; }
+  background-color: #da5c89; }
   label:selected, .view:selected:focus, .view:selected,
   textview > text:selected:focus,
   textview > text:selected, textview > text > selection:focus, textview > text > selection, iconview:selected:focus, iconview:selected, flowbox > flowboxchild:selected, gridview > child:selected,
@@ -3764,14 +3764,14 @@ button.emoji-section {
   button.emoji-section:hover {
     border-color: #c7c7c7; }
   button.emoji-section:checked {
-    border-color: #e920a3; }
+    border-color: #da5c89; }
 
 popover.emoji-picker emoji {
   font-size: x-large;
   padding: 6px;
   border-radius: 6px; }
   popover.emoji-picker emoji:focus, popover.emoji-picker emoji:hover {
-    background: #e920a3; }
+    background: #da5c89; }
 
 emoji-completion-row > box {
   border-spacing: 10px;
@@ -3779,7 +3779,7 @@ emoji-completion-row > box {
 
 emoji-completion-row:focus,
 emoji-completion-row:hover {
-  background-color: #e920a3;
+  background-color: #da5c89;
   color: #FFFFFF; }
 
 emoji-completion-row emoji:focus,
@@ -3809,7 +3809,7 @@ text widgets and the like base background color */
 @define-color theme_base_color #ffffff;
 /*
 base background color of selections */
-@define-color theme_selected_bg_color #e920a3;
+@define-color theme_selected_bg_color #da5c89;
 /*
 text/foreground color of selections */
 @define-color theme_selected_fg_color #FFFFFF;
@@ -3836,7 +3836,7 @@ text widgets and the like base background color on backdrop windows */
 @define-color theme_unfocused_base_color #fcfcfc;
 /*
 base background color of selections on backdrop windows */
-@define-color theme_unfocused_selected_bg_color #e920a3;
+@define-color theme_unfocused_selected_bg_color #da5c89;
 /*
 text/foreground color of selections on backdrop windows */
 @define-color theme_unfocused_selected_fg_color #FFFFFF;
@@ -3899,7 +3899,7 @@ windowcontrols button {
     windowcontrols button.maximize:active, windowcontrols button.maximize:backdrop:active, windowcontrols button.minimize:active, windowcontrols button.minimize:backdrop:active {
       background: #5c5c5c; }
   windowcontrols button.close {
-    background: #e920a3; }
+    background: #da5c89; }
     windowcontrols button.close:hover {
       background: #eb37ad; }
     windowcontrols button.close:active {
@@ -4159,7 +4159,7 @@ radio {
 
 list row.activatable:selected, list row.activatable:selected:hover, list row:selected, list row:selected:hover, placessidebar row.activatable:selected, placessidebar row.activatable:selected:hover, placessidebar row:selected, placessidebar row:selected:hover, sidebar row.activatable:selected, sidebar row.activatable:selected:hover, sidebar row:selected, sidebar row:selected:hover, .sidebar row.activatable:selected, .sidebar row.activatable:selected:hover, .sidebar row:selected, .sidebar row:selected:hover {
   background-color: #ededed;
-  box-shadow: inset 4px 0 0 #e920a3; }
+  box-shadow: inset 4px 0 0 #da5c89; }
   list row.activatable:selected, list row.activatable:selected image, list row.activatable:selected button, list row.activatable:selected button image, list row.activatable:selected:hover, list row.activatable:selected:hover image, list row.activatable:selected:hover button, list row.activatable:selected:hover button image, list row:selected, list row:selected image, list row:selected button, list row:selected button image, list row:selected:hover, list row:selected:hover image, list row:selected:hover button, list row:selected:hover button image, placessidebar row.activatable:selected, placessidebar row.activatable:selected image, placessidebar row.activatable:selected button, placessidebar row.activatable:selected button image, placessidebar row.activatable:selected:hover, placessidebar row.activatable:selected:hover image, placessidebar row.activatable:selected:hover button, placessidebar row.activatable:selected:hover button image, placessidebar row:selected, placessidebar row:selected image, placessidebar row:selected button, placessidebar row:selected button image, placessidebar row:selected:hover, placessidebar row:selected:hover image, placessidebar row:selected:hover button, placessidebar row:selected:hover button image, sidebar row.activatable:selected, sidebar row.activatable:selected image, sidebar row.activatable:selected button, sidebar row.activatable:selected button image, sidebar row.activatable:selected:hover, sidebar row.activatable:selected:hover image, sidebar row.activatable:selected:hover button, sidebar row.activatable:selected:hover button image, sidebar row:selected, sidebar row:selected image, sidebar row:selected button, sidebar row:selected button image, sidebar row:selected:hover, sidebar row:selected:hover image, sidebar row:selected:hover button, sidebar row:selected:hover button image, .sidebar row.activatable:selected, .sidebar row.activatable:selected image, .sidebar row.activatable:selected button, .sidebar row.activatable:selected button image, .sidebar row.activatable:selected:hover, .sidebar row.activatable:selected:hover image, .sidebar row.activatable:selected:hover button, .sidebar row.activatable:selected:hover button image, .sidebar row:selected, .sidebar row:selected image, .sidebar row:selected button, .sidebar row:selected button image, .sidebar row:selected:hover, .sidebar row:selected:hover image, .sidebar row:selected:hover button, .sidebar row:selected:hover button image {
     color: black; }
   list row.activatable:selected:backdrop, list row.activatable:selected:hover:backdrop, list row:selected:backdrop, list row:selected:hover:backdrop, placessidebar row.activatable:selected:backdrop, placessidebar row.activatable:selected:hover:backdrop, placessidebar row:selected:backdrop, placessidebar row:selected:hover:backdrop, sidebar row.activatable:selected:backdrop, sidebar row.activatable:selected:hover:backdrop, sidebar row:selected:backdrop, sidebar row:selected:hover:backdrop, .sidebar row.activatable:selected:backdrop, .sidebar row.activatable:selected:hover:backdrop, .sidebar row:selected:backdrop, .sidebar row:selected:hover:backdrop {

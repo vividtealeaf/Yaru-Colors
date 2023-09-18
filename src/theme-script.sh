@@ -227,7 +227,7 @@ mate_base='78ab50' #MATE based green
 mate_purple='4f6326'
 orange_base='e95420'
 orange_purple='a6401c'
-pink_base='e920a3'
+pink_base='da5c89'
 pink_purple='742558'
 purple_base='924d8b' #NEW Ubuntu 20.04 Aubergine color, old was a064d8
 purple_purple='5e2750'
@@ -334,7 +334,7 @@ svg2_Orange='c6471a'
 svg3_Orange='e95420'
 aubergine_Orange='e95420'
 
-svg1_Pink='e920a3'
+svg1_Pink='da5c89'
 svg2_Pink='c31887'
 svg3_Pink='4f0c38'
 aubergine_Pink='e755b4'
