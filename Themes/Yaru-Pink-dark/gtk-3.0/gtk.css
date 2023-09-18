@@ -681,7 +681,7 @@ GtkTextView {
       icon-shadow: none; }
     .button.suggested-action:backdrop, .button.suggested-action.flat:backdrop {
       -gtk-image-effect: dim;
-      background-color: #eb37ad;
+      background-color: #da5c89;
       background-image: none;
       border-color: #ac1176;
       box-shadow: none; }
@@ -2348,7 +2348,7 @@ GtkComboBox {
     color: #FFFFFF;
     text-shadow: 0 -1px rgba(0, 0, 0, 0.5);
     border-color: #940f66;
-    background-image: linear-gradient(to bottom, #eb37ad, #da5c89);
+    background-image: linear-gradient(to bottom, #da5c89, #da5c89);
     box-shadow: inset 0 -1px #cb1a8e, inset 0 1px rgba(186, 26, 130, 0.7); }
     .titlebar.selection-mode:backdrop,
     .header-bar.selection-mode:backdrop {
@@ -2391,7 +2391,7 @@ GtkComboBox {
       .header-bar.selection-mode .button:backdrop,
       .header-bar.selection-mode .button.flat:backdrop {
         -gtk-image-effect: dim;
-        background-color: #eb37ad;
+        background-color: #da5c89;
         background-image: none;
         border-color: #ac1176;
         box-shadow: none;
@@ -3329,7 +3329,7 @@ GtkComboBox {
       .header-bar .path-bar.linked .button:backdrop:checked,
       .header-bar .stack-switcher.linked .button:backdrop:checked {
         color: #bcbbbb;
-        box-shadow: inset 0 -2px #eb37ad; }
+        box-shadow: inset 0 -2px #da5c89; }
   .titlebar buttonbox.linked .button,
   .titlebar buttonbox.linked .button.text-button ~ .button,
   .header-bar buttonbox.linked .button,
@@ -5317,9 +5317,9 @@ GtkCalendar {
       icon-shadow: none; }
     .message-dialog.csd .dialog-action-area .button.suggested-action:backdrop {
       -gtk-image-effect: dim;
-      background-color: #eb37ad;
+      background-color: #da5c89;
       background-image: none;
-      border-color: #eb37ad;
+      border-color: #da5c89;
       box-shadow: none; }
       .message-dialog.csd .dialog-action-area .button.suggested-action:backdrop .label, .message-dialog.csd .dialog-action-area .button.suggested-action:backdrop {
         color: #f7afde; }
@@ -5738,7 +5738,7 @@ GtkColorSwatch {
     background-image: -gtk-gradient(radial, center center, 0, center center, 0.3571428571, to(#da5c89), to(transparent)); }
     .header-bar .button.titlebutton.close:hover,
     .titlebar .button.titlebutton.close:hover {
-      background-image: -gtk-gradient(radial, center center, 0, center center, 0.3571428571, to(#eb37ad), to(transparent)); }
+      background-image: -gtk-gradient(radial, center center, 0, center center, 0.3571428571, to(#da5c89), to(transparent)); }
       .header-bar .button.titlebutton.close:hover:backdrop,
       .titlebar .button.titlebutton.close:hover:backdrop {
         background-image: -gtk-gradient(radial, center center, 0, center center, 0.3571428571, to(#474444), to(transparent)); }
@@ -5753,7 +5753,7 @@ GtkColorSwatch {
       background-image: -gtk-gradient(radial, center center, 0, center center, 0.3571428571, to(#da5c89), to(transparent)); }
       .header-bar .button.titlebutton.close:hover:hover,
       .titlebar .button.titlebutton.close:hover:hover {
-        background-image: -gtk-gradient(radial, center center, 0, center center, 0.3571428571, to(#eb37ad), to(transparent)); }
+        background-image: -gtk-gradient(radial, center center, 0, center center, 0.3571428571, to(#da5c89), to(transparent)); }
         .header-bar .button.titlebutton.close:hover:hover:backdrop,
         .titlebar .button.titlebutton.close:hover:hover:backdrop {
           background-image: -gtk-gradient(radial, center center, 0, center center, 0.3571428571, to(#474444), to(transparent)); }
@@ -5768,7 +5768,7 @@ GtkColorSwatch {
       background-image: -gtk-gradient(radial, center center, 0, center center, 0.3571428571, to(#da5c89), to(transparent)); }
       .header-bar .button.titlebutton.close:active:hover,
       .titlebar .button.titlebutton.close:active:hover {
-        background-image: -gtk-gradient(radial, center center, 0, center center, 0.3571428571, to(#eb37ad), to(transparent)); }
+        background-image: -gtk-gradient(radial, center center, 0, center center, 0.3571428571, to(#da5c89), to(transparent)); }
         .header-bar .button.titlebutton.close:active:hover:backdrop,
         .titlebar .button.titlebutton.close:active:hover:backdrop {
           background-image: -gtk-gradient(radial, center center, 0, center center, 0.3571428571, to(#474444), to(transparent)); }

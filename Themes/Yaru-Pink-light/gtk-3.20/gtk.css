@@ -2687,7 +2687,7 @@ switch {
   switch:checked {
     color: #FFFFFF;
     border-color: #da1696;
-    background-color: #eb37ad;
+    background-color: #da5c89;
     text-shadow: 0 1px rgba(172, 17, 118, 0.5), 0 0 2px rgba(255, 255, 255, 0.6); }
   switch:disabled {
     color: #9c9c9c;
@@ -2703,7 +2703,7 @@ switch {
     switch:backdrop:checked {
       color: #FAFAFA;
       border-color: #da1696;
-      background-color: #eb37ad; }
+      background-color: #da5c89; }
     switch:backdrop:disabled {
       color: #d4d4d4;
       border-color: #d1d1d1;
@@ -2778,7 +2778,7 @@ switch {
   min-width: 32px;
   min-height: 32px;
   color: transparent;
-  background-color: #eb37ad;
+  background-color: #da5c89;
   border-radius: 5px;
   background-image: none;
   transition: 200ms;
@@ -2793,7 +2793,7 @@ switch {
   min-width: 32px;
   min-height: 32px;
   color: transparent;
-  background-color: #eb37ad;
+  background-color: #da5c89;
   border-radius: 5px;
   background-image: none;
   transition: 200ms;
@@ -2808,7 +2808,7 @@ switch {
   min-width: 32px;
   min-height: 32px;
   color: transparent;
-  background-color: #eb37ad;
+  background-color: #da5c89;
   border-radius: 5px;
   background-image: none;
   transition: 200ms;
@@ -2838,7 +2838,7 @@ switch {
   min-width: 32px;
   min-height: 32px;
   color: #eeeeec;
-  background-color: #eb37ad;
+  background-color: #da5c89;
   border-radius: 5px;
   background-image: none;
   transition: 200ms;
@@ -2853,7 +2853,7 @@ switch {
   min-width: 32px;
   min-height: 32px;
   color: #eeeeec;
-  background-color: #eb37ad;
+  background-color: #da5c89;
   border-radius: 5px;
   background-image: none;
   transition: 200ms;
@@ -2868,7 +2868,7 @@ switch {
   min-width: 32px;
   min-height: 32px;
   color: #eeeeec;
-  background-color: #eb37ad;
+  background-color: #da5c89;
   border-radius: 5px;
   background-image: none;
   transition: 200ms;
@@ -2953,8 +2953,8 @@ radio {
   check:checked,
   radio:checked {
     background-clip: border-box;
-    background-image: image(#eb37ad);
-    border-color: #eb37ad;
+    background-image: image(#da5c89);
+    border-color: #da5c89;
     box-shadow: 0 1px rgba(0, 0, 0, 0.05);
     color: #FFFFFF; }
   check:checked:hover,
@@ -2974,8 +2974,8 @@ radio {
     background-image: image(#fcfcfc); }
   check:checked:backdrop,
   radio:checked:backdrop {
-    background-image: image(#eb37ad);
-    border-color: #eb37ad;
+    background-image: image(#da5c89);
+    border-color: #da5c89;
     box-shadow: none;
     color: #FFFFFF; }
   check:checked:backdrop:disabled,
@@ -2987,8 +2987,8 @@ radio {
   check:indeterminate,
   radio:indeterminate {
     background-clip: border-box;
-    background-image: image(#eb37ad);
-    border-color: #eb37ad;
+    background-image: image(#da5c89);
+    border-color: #da5c89;
     box-shadow: 0 1px rgba(0, 0, 0, 0.05);
     color: #FFFFFF; }
   check:indeterminate:hover,
@@ -3008,8 +3008,8 @@ radio {
     background-image: image(#fcfcfc); }
   check:indeterminate:backdrop,
   radio:indeterminate:backdrop {
-    background-image: image(#eb37ad);
-    border-color: #eb37ad;
+    background-image: image(#da5c89);
+    border-color: #da5c89;
     box-shadow: none;
     color: #FFFFFF; }
   check:indeterminate:backdrop:disabled,
@@ -5349,7 +5349,7 @@ button.titlebutton:not(.appmenu) {
     background-image: -gtk-gradient(radial, center center, 0, center center, 0.3571428571, to(#da5c89), to(transparent)); }
     headerbar button.titlebutton.close:not(.appmenu):hover, .titlebar button.titlebutton.close:not(.appmenu):hover, headerbar.selection-mode button.titlebutton.close:not(.appmenu):hover, button.titlebutton.close:not(.appmenu):hover {
       background-image: -gtk-gradient(radial, center center, 0, center center, 0.3571428571, to(#da5c89), to(transparent));
-      background-image: -gtk-gradient(radial, center center, 0, center center, 0.3571428571, to(#eb37ad), to(transparent)); }
+      background-image: -gtk-gradient(radial, center center, 0, center center, 0.3571428571, to(#da5c89), to(transparent)); }
     headerbar button.titlebutton.close:not(.appmenu):active, .titlebar button.titlebutton.close:not(.appmenu):active, headerbar.selection-mode button.titlebutton.close:not(.appmenu):active, button.titlebutton.close:not(.appmenu):active {
       background-image: -gtk-gradient(radial, center center, 0, center center, 0.3571428571, to(#da5c89), to(transparent));
       background-image: -gtk-gradient(radial, center center, 0, center center, 0.3571428571, to(#da1696), to(transparent)); }

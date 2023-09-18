@@ -2071,7 +2071,7 @@ switch {
   switch:checked {
     color: #FFFFFF;
     border-color: #da1696;
-    background-color: #eb37ad; }
+    background-color: #da5c89; }
   switch:disabled {
     color: #9c9c9c;
     border-color: #c7c7c7;
@@ -2119,7 +2119,7 @@ switch {
   min-width: 32px;
   min-height: 32px;
   color: transparent;
-  background-color: #eb37ad;
+  background-color: #da5c89;
   border-radius: 5px;
   background-image: none;
   transition: 200ms;
@@ -2134,7 +2134,7 @@ switch {
   min-width: 32px;
   min-height: 32px;
   color: transparent;
-  background-color: #eb37ad;
+  background-color: #da5c89;
   border-radius: 5px;
   background-image: none;
   transition: 200ms;
@@ -2149,7 +2149,7 @@ switch {
   min-width: 32px;
   min-height: 32px;
   color: transparent;
-  background-color: #eb37ad;
+  background-color: #da5c89;
   border-radius: 5px;
   background-image: none;
   transition: 200ms;
@@ -2179,7 +2179,7 @@ switch {
   min-width: 32px;
   min-height: 32px;
   color: #eeeeec;
-  background-color: #eb37ad;
+  background-color: #da5c89;
   border-radius: 5px;
   background-image: none;
   transition: 200ms;
@@ -2194,7 +2194,7 @@ switch {
   min-width: 32px;
   min-height: 32px;
   color: #eeeeec;
-  background-color: #eb37ad;
+  background-color: #da5c89;
   border-radius: 5px;
   background-image: none;
   transition: 200ms;
@@ -2209,7 +2209,7 @@ switch {
   min-width: 32px;
   min-height: 32px;
   color: #eeeeec;
-  background-color: #eb37ad;
+  background-color: #da5c89;
   border-radius: 5px;
   background-image: none;
   transition: 200ms;
@@ -2278,8 +2278,8 @@ radio {
   check:checked,
   radio:checked {
     background-clip: border-box;
-    background-image: image(#eb37ad);
-    border-color: #eb37ad;
+    background-image: image(#da5c89);
+    border-color: #da5c89;
     box-shadow: 0 1px rgba(0, 0, 0, 0.05);
     color: #FFFFFF; }
   check:checked:hover,
@@ -2300,8 +2300,8 @@ radio {
   check:indeterminate,
   radio:indeterminate {
     background-clip: border-box;
-    background-image: image(#eb37ad);
-    border-color: #eb37ad;
+    background-image: image(#da5c89);
+    border-color: #da5c89;
     box-shadow: 0 1px rgba(0, 0, 0, 0.05);
     color: #FFFFFF; }
   check:indeterminate:hover,
@@ -3901,7 +3901,7 @@ windowcontrols button {
   windowcontrols button.close {
     background: #da5c89; }
     windowcontrols button.close:hover {
-      background: #eb37ad; }
+      background: #da5c89; }
     windowcontrols button.close:active {
       background: #da1696; }
     windowcontrols button.close:backdrop {

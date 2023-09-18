@@ -2381,9 +2381,9 @@ progressbar > trough, scale > trough > fill, scale > trough {
       background-color: rgba(50, 50, 50, 0.5); }
 
 progressbar > trough > progress, scale > trough > highlight {
-  border: 1px solid #eb37ad;
+  border: 1px solid #da5c89;
   border-radius: 3px;
-  background-color: #eb37ad; }
+  background-color: #da5c89; }
   progressbar > trough > progress:disabled, scale > trough > highlight:disabled {
     background-color: transparent;
     border-color: transparent; }
@@ -2453,7 +2453,7 @@ scale {
       background-image: image(#3c3c3c);
       box-shadow: 0 1px rgba(0, 0, 0, 0.1); }
     scale > trough > slider:active {
-      border-color: #eb37ad; }
+      border-color: #da5c89; }
     scale > trough > slider:disabled {
       color: #929292;
       border-color: #1c1c1c;
@@ -2929,8 +2929,8 @@ levelbar > trough > block {
     border-color: #f99b11;
     background-color: #f99b11; }
   levelbar > trough > block.high, levelbar > trough > block:not(.empty) {
-    border-color: #eb37ad;
-    background-color: #eb37ad; }
+    border-color: #da5c89;
+    background-color: #da5c89; }
   levelbar > trough > block.full {
     border-color: #109b26;
     background-color: #109b26; }

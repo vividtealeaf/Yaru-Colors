@@ -362,7 +362,7 @@ entry progress {
   background-image: none;
   border-radius: 0;
   border-width: 0 0 2px;
-  border-color: #eb37ad;
+  border-color: #da5c89;
   border-style: solid;
   box-shadow: none; }
   spinbutton:not(.vertical) progress:backdrop,
@@ -2077,8 +2077,8 @@ treeview.view {
     treeview.view.expander:backdrop {
       color: rgba(157, 157, 157, 0.755); }
   treeview.view.progressbar {
-    background-color: #eb37ad;
-    background-image: image(#eb37ad);
+    background-color: #da5c89;
+    background-image: image(#da5c89);
     box-shadow: none; }
     treeview.view.progressbar:selected:focus, treeview.view.progressbar:selected {
       box-shadow: inset 0 1px rgba(255, 255, 255, 0.05);
@@ -3130,14 +3130,14 @@ progressbar trough, scale fill, scale trough {
       background-color: rgba(50, 50, 50, 0.5); }
 
 progressbar progress, scale highlight {
-  border: 1px solid #eb37ad;
+  border: 1px solid #da5c89;
   border-radius: 3px;
-  background-color: #eb37ad; }
+  background-color: #da5c89; }
   progressbar progress:disabled, scale highlight:disabled {
     background-color: transparent;
     border-color: transparent; }
   progressbar progress:backdrop, scale highlight:backdrop {
-    border-color: #eb37ad; }
+    border-color: #da5c89; }
     progressbar progress:backdrop:disabled, scale highlight:backdrop:disabled {
       background-color: transparent;
       border-color: transparent; }
@@ -3210,7 +3210,7 @@ scale {
       background-image: image(#b7b1aa);
       box-shadow: 0 1px rgba(0, 0, 0, 0.15); }
     scale slider:active {
-      border-color: #eb37ad; }
+      border-color: #da5c89; }
     scale slider:disabled {
       color: #929292;
       border-color: #181818;
@@ -3840,10 +3840,10 @@ levelbar block {
     levelbar block.low:backdrop {
       border-color: #f99b11; }
   levelbar block.high, levelbar block:not(.empty) {
-    border-color: #eb37ad;
-    background-color: #eb37ad; }
+    border-color: #da5c89;
+    background-color: #da5c89; }
     levelbar block.high:backdrop, levelbar block:not(.empty):backdrop {
-      border-color: #eb37ad; }
+      border-color: #da5c89; }
   levelbar block.full {
     border-color: #109b26;
     background-color: #109b26; }
@@ -4879,9 +4879,9 @@ list.tweak-categories separator {
   color: rgba(42, 42, 42, 0.3); }
 
 .disk-space-display.used {
-  background-color: #eb37ad;
+  background-color: #da5c89;
   border-color: rgba(235, 55, 173, 0.3);
-  color: #eb37ad; }
+  color: #da5c89; }
 
 .disk-space-display.used.border {
   color: rgba(235, 55, 173, 0.3); }
@@ -5216,7 +5216,7 @@ normal-button {
   padding: 1px;
   padding-top: 2px;
   background-color: white;
-  border: 1px solid #eb37ad; }
+  border: 1px solid #da5c89; }
   #live_installer #dot_grid progressbar .empty {
     border-radius: 100%;
     background-color: white;

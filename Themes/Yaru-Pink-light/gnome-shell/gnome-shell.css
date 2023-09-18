@@ -1207,7 +1207,7 @@ StScrollBar {
     -panel-corner-border-width: 2px;
     -panel-corner-border-color: transparent; }
     #panel .panel-corner:active, #panel .panel-corner:overview, #panel .panel-corner:focus {
-      -panel-corner-border-color: #eb37ad; }
+      -panel-corner-border-color: #da5c89; }
   #panel .panel-button {
     font-weight: bold;
     color: #f2f2f2;
@@ -1230,12 +1230,12 @@ StScrollBar {
         color: #575757; }
   #panel .panel-button:active, #panel .panel-button:overview, #panel .panel-button:focus, #panel .panel-button:checked {
     background-color: rgba(0, 0, 0, 0.01);
-    box-shadow: inset 0 -2px 0 0 #eb37ad; }
+    box-shadow: inset 0 -2px 0 0 #da5c89; }
   #panel .panel-button.clock-display:active, #panel .panel-button.clock-display:overview, #panel .panel-button.clock-display:focus, #panel .panel-button.clock-display:checked {
     box-shadow: none; }
     #panel .panel-button.clock-display:active .clock, #panel .panel-button.clock-display:overview .clock, #panel .panel-button.clock-display:focus .clock, #panel .panel-button.clock-display:checked .clock {
       background-color: rgba(0, 0, 0, 0.01);
-      box-shadow: inset 0 -2px 0 0 #eb37ad; }
+      box-shadow: inset 0 -2px 0 0 #da5c89; }
   #panel .panel-status-indicators-box,
   #panel .panel-status-menu-box {
     spacing: 2px; }
@@ -1301,7 +1301,7 @@ StScrollBar {
   width: 24px;
   box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.5); }
   .window-close:hover {
-    background-color: #eb37ad; }
+    background-color: #da5c89; }
   .window-close:active {
     background-color: #da1696; }
 
@@ -1787,7 +1787,7 @@ StScrollBar {
   color: initial; }
 
 .emoji-panel .keyboard-key:latched {
-  border-color: #eb37ad;
+  border-color: #da5c89;
   background-color: #da5c89; }
 
 .word-suggestions {
@@ -1822,7 +1822,7 @@ StScrollBar {
       color: #eeeeec; }
     #LookingGlassDialog .notebook-tab:selected {
       border-bottom-width: 2px;
-      box-shadow: inset 0 -2px 0 0 #eb37ad;
+      box-shadow: inset 0 -2px 0 0 #da5c89;
       color: #eeeeec; }
   #LookingGlassDialog StBoxLayout#EvalBox {
     padding: 4px;
